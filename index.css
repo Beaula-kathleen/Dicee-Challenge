@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(57, 57, 70);
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: 'Lobster', cursive;
+   color: rgb(53, 194, 194);
+   font-weight: 900;
+   align-self: center;
+   font-style: italic;
+   text-shadow: 5px 0 #232931;
+}
+h2{
+  color: rgb(40, 182, 182);
+  font-family: 'Indie Flower', cursive;
+}
+footer {
+  text-align: center;
+  margin-top: 10%;
+  color: ghostwhite;
+  font-family: cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  text-align: center;
+  gap: 70px;
+}
+.dice1,
+.dice2 {
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  border-radius: 5%;
+  display: grid;
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+}
+.item {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+}
